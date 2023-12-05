@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table without using html talbe attribute and list</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .heading {
+        font-weight: 600;
+
+        color: black;
+      }
+      .table {
+        
+        border: 2px solid black;
+        min-height: 24px;
+        width: 42%;
+      }
+      .row {
+        min-width: 500px;
+
+        border-bottom: 1px solid black;
+      }
+      .col {
+        font-size: 30px;
+        display: inline;
+        padding: 0px 10px;
+        border-left: 2px solid black;
+      }
+      .card {
+        /* display: flex; */
+        margin: 20px auto;
+        background:#e4e4e4;
+        /* border: 1px solid blue; */
+        border-radius: 7px;
+        width: 600px;
+        height: 209px;
+      }
+      /* .parent{
+        width: 100%;
+        border: 6px solid cyan;
+
+      } */
+      .first {
+        width: 47%;
+        display: inline;
+        border: 1px solid red;
+        margin-right: 15px;
+      }
+      input[type="text"]{
+        border: 1px solid rgb(90, 88, 88);
+        padding: 5px;
+        border-radius: 3px;
+        width: 80%;
+      }
+      small{
+      color: #190e0e;
+      }
+      hr{
+        width: 90%;
+      }
+      #btn1{
+      width: 90%;
+      border: none;
+      background:#4646e5;
+      color: white;
+      padding: 7px;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: 17px ;
+      &:hover{
+        opacity: 0.7;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Table without using sementic tag</h2>
+    <div class="table">
+      <div class="row">
+        <div class="col heading">Name</div>
+        <div class="col heading">Phone</div>
+        <div class="col heading">Address</div>
+        <div class="col heading">Degree</div>
+        <div class="col heading">Branch</div>
+        
+      </div>
+      <div class="row">
+        <div class="col ">Name</div>
+        <div class="col ">Phone</div>
+        <div class="col ">Address</div>
+        <div class="col ">Degree</div>
+        <div class="col ">Branch</div>
+        </div>
+        <div class="row">
+          <div class="col">Name</div>
+          <div class="col">Phone</div>
+          <div class="col">Address</div>
+          <div class="col">Degree</div>
+          <div class="col">Branch</div>
+          
+        </div>
+        <div class="row">
+          <div class="col">Name</div>
+          <div class="col">Phone</div>
+          <div class="col">Address</div>
+          <div class="col">Degree</div>
+          <div class="col">Branch</div>
+          
+        </div>
+
+        <div class="row">
+          <div class="col">Name</div>
+          <div class="col">Phone</div>
+          <div class="col">Address</div>
+          <div class="col">Degree</div>
+          <div class="col">Branch</div>
+          
+        </div>
+    
+    </div>
+    <h2>List item tag without using li&ul html tag</h2>
+    <div class="ul">
+      <div class="li">&#9632; WEB DESIGN</div>
+      <div class="li">&#9632; FRONT END</div>
+      <div class="li">&#9632; HTML</div>
+      <div class="li">&#9632; CSS</div>
+      <div class="li">&#9632; JAVASCRIPT</div>
+      <div class="li">&#9632; REACT</div>
+    </div>
+    <h1>card assignment </h1>
+<div class="card">
+   <div style="display: flex;">
+    <div style=" width: 50%; height: 63px;margin-left: 15px;">
+        <label for="">Name on card</label><br />
+        <input type="text" /><br>
+       <small> Full name as displayed on card</small>
+       </div>
+       <div style=" width: 50%; height: 63px;">
+        <label for="">Credit card number</label>
+        <input type="text" /><br>
+     </div>
+   </div>
+   <div style=" width: 49%; height: 63px;margin: 15px;display: flex;">
+    <div style="width: 50%; height: 63px;">
+        <label for="">Expiration</label><br />
+        <input type="text" /><br>
+      
+       </div>
+       <div style="width: 50%; height: 63px;">
+        <label for="">CVV   </label>
+        <input type="text" /><br>
+     </div>
+ </div>
+ <hr>
+ <button type="button" id="btn1">Continue to checkout</button>
+        
+        
+   
+</div>
+<!-- <div>djdj</div> -->
+  </body>
+</html>
